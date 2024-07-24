@@ -2,7 +2,7 @@
 ![ex2](https://github.com/user-attachments/assets/14a4e05d-c116-4f44-bdfa-ff9f9c69ea6d)
 
 
-Esse projet o foi desenvolvido no Ubuntu 22.04, adaptações podem ser necessárias para outros sistemas operacionais.
+Esse projeto foi desenvolvido no Ubuntu 22.04, adaptações podem ser necessárias para outros sistemas operacionais.
 ## Dependências
 ### ROS 2 humble
 <https://docs.ros.org/en/humble/Installation.html>
