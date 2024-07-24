@@ -28,23 +28,7 @@ CurrentJointState = None
 lock = False
 
 def inverse_kinematic(x, y):
-    #apagar
-    a1 = 0.467  #link 1 size
-    a2 = 0.4005 #link 2 size
-
-    c2 = (x**2 + y**2 - a1**2 - a2**2)/(2*a1*a2)
-
-    o21 = np.arctan2(-(1-c2**2)**(1/2), c2)
-
-    b = np.arctan2(y, x)
-
-    phi11 = np.arctan2(a2 * np.sin(o21), a1 + a2 * np.cos(o21))
-
-    solution = [0, 0]
-    solution[1] = (o21 - np.pi * 50 / 180)
-    solution[0] = (b - phi11)
-    
-    return solution
+    return
 
 class SupervisorListener(Node):
     def __init__(self):
