@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/jonh/ros_ws/install/vision/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/scara_wrapper/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/scara_supervisor/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/conveyor_wrapper/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/jonh/ros_ws/install/vision/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/scara_wrapper/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/scara_supervisor/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/conveyor_wrapper/lib/python3.10/site-packages",
+        "/home/jonh/ros_ws/install/custom_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

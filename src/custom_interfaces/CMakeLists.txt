@@ -16,10 +16,10 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ArucoDetect.srv"
-  "srv/Teste.srv"
-  "srv/SetVel.srv"
+  "srv/GrabOrRelease.srv"
   "action/VelControl.action"
-  DEPENDENCIES sensor_msgs geometry_msgs
+  "action/ScaraControl.action"
+  DEPENDENCIES sensor_msgs geometry_msgs std_msgs
  )
 
 

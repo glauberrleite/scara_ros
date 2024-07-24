@@ -1,0 +1,5 @@
+std_msgs/Float64MultiArray angles
+---
+bool status
+---
+std_msgs/Float64MultiArray angle_shift
